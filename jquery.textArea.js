@@ -94,11 +94,6 @@
                                 return false;
                             }
 
-                            /*---Prevent Copy Paste---*/
-                            if (e.ctrlKey==true && (e.which == '118' || e.which == '86')) {
-                                return false;
-                            }
-
                             /*---Add New Line---*/
                             if(lCount <= lineCount){
                                 if ((parseInt(textOrigLen/lCount) == perLine) && (textOrigLen != txtCount) && e.which != 46 && e.which != 8) {
